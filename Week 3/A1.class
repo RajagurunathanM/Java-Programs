@@ -1,0 +1,11 @@
+package pack1;
+
+
+class A1
+{
+int a=9;
+void printa()
+{
+System.out.println(a);
+}
+}
