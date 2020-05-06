@@ -1,0 +1,28 @@
+interface interf1
+{
+public abstract void fun1();
+public abstract void fun2();
+}
+
+class Interface1 implements interf1{
+public abstract void fun1()
+{
+System.out.println("FUN1 IN INTERF INTERFACE");
+}
+
+public abstract void fun2()
+{
+System.out.println("FUN2 IN INTERF INTERFACE");
+}
+
+public static void main(String a[])
+{
+Interface1 obj = new Interface1();
+obj.fun1();
+obj.fun2();
+}
+
+
+
+
+}
